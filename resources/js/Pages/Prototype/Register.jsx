@@ -81,11 +81,13 @@ export default function Register() {
                                         Sign In to My Account
                                     </span>
                                 </a> */}
-                                <Button>
-                                    <span className="text-base font-semibold">
-                                        Sign Up
-                                    </span>
-                                </Button>
+                                <Link href={route('prototype.dashboard')}>
+                                    <Button>
+                                        <span className="text-base font-semibold">
+                                            Sign Up
+                                        </span>
+                                    </Button>
+                                </Link>
                                 <Link href={route('prototype.login')}>
                                     <Button
                                         variant='light-outline'
